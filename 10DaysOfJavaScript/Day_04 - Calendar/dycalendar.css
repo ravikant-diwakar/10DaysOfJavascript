@@ -1,0 +1,78 @@
+/* Calendar Styles */
+.dycalendar-container {
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    padding: 10px;
+}
+
+.dycalendar-container.round-edge {
+    border-radius: 10px;
+}
+
+.dycalendar-day-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.dycalendar-day-container div {
+    margin-bottom: 10px;
+}
+
+.dycalendar-month-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.dycalendar-month-container div {
+    margin-bottom: -10px;
+}
+
+.dycalendar-month-container .dycalendar-header {
+    position: relative;
+}
+
+.dycalendar-month-container .dycalendar-header .dycalendar-prev-next-btn {
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+
+.dycalendar-month-container .dycalendar-header .dycalendar-prev-next-btn.prev-btn {
+    left: 0;
+}
+
+.dycalendar-month-container .dycalendar-header .dycalendar-prev-next-btn.next-btn {
+    right: 0;
+}
+
+.dycalendar-month-container .dycalendar-span-month-year {
+    margin: 5px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.dycalendar-month-container .dycalendar-body table tr td {
+    padding: 5px;
+}
+
+.dycalendar-month-container .dycalendar-today-date,
+.dycalendar-month-container .dycalendar-target-date {
+    background-color: #ffffff;
+    color: #fff;
+    border-radius: 2px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #070622;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.footer p {
+    font-size: 0.9rem;
+}
