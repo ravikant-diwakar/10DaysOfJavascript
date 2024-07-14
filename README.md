@@ -1,1 +1,2 @@
 # 10DaysOfJavascript
+JavaScript projects
